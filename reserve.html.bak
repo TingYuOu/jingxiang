@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Tw">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css">
+    <div id="fb-root"></div>
+
+  #idname{
+    color:black；
+    font-family:微軟正黑體； 
+  }
+  body{
+	  background-color:#f0f0f0;
+  }
+
+ a:link{
+	background-color:white；
+	font-style:normal;
+	font-family:微軟正黑體;
+	font-size:18pt;
+	text-align:center;
+	color:black;
+	border:2px gray;
+	letter-spacing:2px;
+	text-decoration:none;
+  }
+  a:hover{
+	background-color:#99BBFF;
+	border:2px #99BBFF;
+	color:white;
+	font-size:150%;
+	box-shadow:0px 3px 3px gray;
+  
+} </style>
+    <title>活動預約</title>
+  </head>
+  <body>
+    <p align="wrighe"><a name="top" id="top"></a> </p>
+    <p style="text-align: center;"> <img src="images/title.jpg" alt="澎湖夜釣小管晶翔號"
+
+        height="300" width="1100"></p>
+    <p style="background-color:white" align="center"><a href="jingxiang.html">首頁
+      </a><small>|</small> <a href="fisherman.html">東海一日漁夫體驗 </a><small>|</small>
+      <a href="water.html"> 豪華痛風餐漁夫體驗 </a><small>|</small> <a href="squid.html">夜
+        釣小管</a><small>|</small><a href="reserve.html"> 活動預約 </a></p>
+    <hr>
+    <form method="post" action="x0933373394@gmail.com" enctype="text/plain">
+      <fieldset> <legend><font face="微軟正黑體" size="5">基本資料</font></legend>
+        <p><font face="微軟正黑體" size="5">參與活動日期：<input required="必填" autofocus=""
+
+              type="date"></font></p>
+        <p><font face="微軟正黑體" size="5">訂位民宿：<input size="8" maxlength="8" required="必填"
+
+              type="text"></font></p>
+        <p><font face="微軟正黑體" size="5">姓名：<input size="8" maxlength="8" required="必填"
+
+              type="text"></font></p>
+        <p><font face="微軟正黑體" size="5">身分證字號：<input size="10" maxlength="10" required="必填"
+
+              autofocus="" type="password"></font></p>
+        <p><font face="微軟正黑體" size="5">行動電話：<input size="80" maxlength="80" required="必填"
+
+              placeholder="輸入格式為0000-000-000" type="text"></font></p>
+        <p><font face="微軟正黑體" size="5">性別：<input name="sex" value="M" checked="checked"
+
+              required="必填" type="radio">男 <input name="sex" value="F" required="必填"
+
+              type="radio">女</font></p>
+        <p><font face="微軟正黑體" size="5">生日:<input size="10" maxlength="80" required="必填"
+
+              type="date"></font></p>
+      </fieldset>
+      <br>
+      <fieldset> <legend><font face="微軟正黑體" size="5">參與活動</font></legend>
+        <p><font face="微軟正黑體" size="5">參加活動名稱: <input name="mobile" value="fisherman"
+
+              checked="checked" type="checkbox">東海一日漁夫體驗 <input name="mobile" value="water"
+
+              type="checkbox">豪華痛風漁夫體驗 <input name="mobile" value="squid" type="checkbox">夜
+            釣小管(一般班次)<input name="mobile" value="squid" type="checkbox">夜
+            釣小管(花火班次)</font></p>
+      </fieldset>
+      <p><font face="微軟正黑體" size="5">活動疑問及建議：</font></p>
+      <textarea name="guessbook" rows="5" cols="145" placeholder="請在這留下你的疑問或建議"></textarea>
+      <br>
+      <input name="submit" value="送出" type="submit"> <input name="reset" value="重設"
+
+type="reset"> 
+     <p align="center"><small>Copyright © 2022 by Ting-Yu Ou</small></p>
+    <p align="right"><a href="#top">回到上方</a></p>
+  </form>  
+  </body>
+</html>
